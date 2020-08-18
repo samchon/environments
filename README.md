@@ -8,6 +8,11 @@
 ## 2. Github
   - https://github.com/git-for-windows/git/releases
 
+```bash
+git config --global user.email "samchon@samchon.org"
+git config --global user.name "Jeongho Nam"
+```
+
 ## 3. IDE
   - https://code.visualstudio.com/
   - https://visualstudio.microsoft.com/vs/community/
