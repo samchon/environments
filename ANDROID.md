@@ -6,6 +6,7 @@
 
 ```bash
 termux-setup-storage
+exit
 ```
 
 
@@ -52,7 +53,7 @@ export PASSWORD="1231"
 code-server
 ```
 
-이후 http://localhost:8080 에 접속하여, `vscode` 를 사용할 수 있다. 
+이제부터는 http://localhost:8080 에 접속하여, `vscode` 를 사용할 수 있다. 
 
 다만, 원활한 `vscode` 개발을 위하여, 몇 가지 필수 패키지들을 설치하고, 예제들을 구성해보자.
 
@@ -71,3 +72,12 @@ git clone https://github.com/samchon/tstl
 git clone https://github.com/samchon/tgrid
 git clone https://github.com/samchon/mutex-server
 ```
+
+
+
+## 4. Run
+앞으로 `code-server` 를 가동하려거든, `termux` 를 실행하고 아래와 같이 입력하면 된다.
+
+  1. `termux` 실행
+  2. `cd storage/ubuntu && ./start-ubuntu.sh` 입력
+  3. `code-server` 입력
