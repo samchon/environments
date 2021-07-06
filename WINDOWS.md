@@ -6,7 +6,7 @@
   - https://github.com/git-for-windows/git/releases
 
 ```bash
-git config --global user.email "samchon@samchon.org"
+git config --global user.email "samchon.github@gmail.com"
 git config --global user.name "Jeongho Nam"
 ```
 
